@@ -1,0 +1,17 @@
+<div class="header">
+  {{#toggle-menu
+  class="button"}}
+      MENU
+  {{/toggle-menu}}
+</div>
+
+{{#sliding-menu appIdentifier='.app'}}
+    <div class="menu">
+        <div {{action "transitionFromMenu" "home"}} class="menu-item">Home page</div>
+        <div class="blurred-scroll"></div>
+  </div>
+{{/sliding-menu}}
+
+{{background-overlay}}
+
+{{outlet 'main'}}
