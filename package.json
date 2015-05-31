@@ -1,12 +1,8 @@
 {
   "name": "testing-menu",
-  "version": "0.0.1",
+  "version": "0.1.1",
   "description": "Helping example for sliding menu component",
-  "author": {
-    "name": "Vladimir Katansky",
-    "email": "pointhomefinal@gmail.com",
-    "url": "http://katansky-blog.com/"
-  },
+  "author": "",
   "private": true,
   "directories": {
     "doc": "doc",
@@ -21,7 +17,6 @@
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.0.0",
